@@ -3,11 +3,11 @@
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logika interakcji dla klasy WpfAppZad3.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class WpfAppZad3 : Window
     {
-        public MainWindow()
+        public WpfAppZad3()
         {
             InitializeComponent();
         }
