@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.WpfAppZad4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="WpfAppZad4" Height="450" Width="800">
+    <Canvas x:Name="canvas" Background="White">
+        <!-- Poziom 0 -->
+        <Button Content="A" Width="50" Height="30" Canvas.Left="150" Canvas.Top="20"/>
+        <!-- Poziom 1 -->
+        <Button Content="B" Width="50" Height="30" Canvas.Left="70" Canvas.Top="100"/>
+        <Button Content="C" Width="50" Height="30" Canvas.Left="230" Canvas.Top="100"/>
+        <!-- Poziom 2 -->
+        <Button Content="D" Width="50" Height="30" Canvas.Left="30" Canvas.Top="180"/>
+        <Button Content="E" Width="50" Height="30" Canvas.Left="110" Canvas.Top="180"/>
+        <Button Content="F" Width="50" Height="30" Canvas.Left="190" Canvas.Top="180"/>
+        <Button Content="G" Width="50" Height="30" Canvas.Left="270" Canvas.Top="180"/>
+    </Canvas>
+</Window>
